@@ -8,3 +8,4 @@ cig = cigarString('M4I10M22S15')
 print(cig.cigar)
 
 temp1
+test2
