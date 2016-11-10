@@ -1,12 +1,6 @@
-def splitCigar(self, cigar):
-    self.cigar = parseCigar(cigar)
+import cigar_string
 
-    def parseCigar(self,cigar):
-    	return cigar
-
-cig = cigarString('M4I10M22S15')
+cig = cigarString('M4I10M22S15',6500)
 print(cig.cigar)
+#cig.printAll()
 
-temp1
-test2
-test3
