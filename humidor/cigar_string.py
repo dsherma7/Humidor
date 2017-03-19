@@ -71,9 +71,9 @@ class cigarIter:
             return self.vals[self.keys[self.current-1]]
 
 
-cig = cigarString('M4I10M22S15',6500)
-for items in cig:
-	print(items)
+#cig = cigarString('M4I10M22S15',6500)
+#for items in cig:
+#	print(items)
 
 #cig = cigarString('M4I10M22S15',6500)
 #print(cig.cigar)
